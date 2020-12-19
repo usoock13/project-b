@@ -198,7 +198,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e049acf1907dffa40a6186c0f3d91793, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  avatar: {fileID: 0}
+  avatar: {fileID: 117667653}
+--- !u!1 &117667653 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 37d97e95276deca45a0d92d7856e19c6, type: 3}
+  m_PrefabInstance: {fileID: 1713339822}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1713339822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -220,7 +225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37d97e95276deca45a0d92d7856e19c6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.512
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37d97e95276deca45a0d92d7856e19c6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -415,6 +420,7 @@ Light:
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &1998520155
