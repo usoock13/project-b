@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         
+
     }
 
     void Animate() {
