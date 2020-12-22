@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         Animate();
-        Debug.Log("크큭");
+        Debug.Log("익스트림이닝");
     }
 
     void Animate() {
